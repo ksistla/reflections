@@ -8,3 +8,13 @@ description and HEAD are also created.
 We need to run the 'git init' command in order to convert the directory in 
 which the 'git init' is run into a Git repository. 
 
+How is the staging area different from the working directory and the repository? 
+What value do you think it offers?
+
+The git repository is a storage of all committed files. The working directory is
+where files checked out from the repository would be stored. The user would
+work on the files, edit them in the working directory. He would move only the 
+files that are ready for committing to the staging area. 
+
+The staging area offers a place where the user can move the select set of files
+i.e. only those that he wishes to commit to the repository. 
