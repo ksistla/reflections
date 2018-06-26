@@ -1,0 +1,55 @@
+How did viewing a diff between two versions of a file help you see the bug that
+was introduced?
+
+1.) The line numbers where the files differ was clearly displayed.
+2.) Since I entered the old file name followed by the new file name
+as arguments to the 'fc' command, the differences between the 2
+files were displayed file wise i.e. the code as it was in the old
+file followed by the code as it was in the new file.
+3.) the name of the file whose code was being displayed was also
+displayed.
+4.) the code differences were seperated by '*****'
+
+How could having easy access to the entire history of a file make you a more
+efficient programmer in the long term?
+
+1.) you will know why you made certain changes to the older versions
+2.) you will be able to revert back to the changes as and when you need
+3.) you could reuse the old code for development of a different product
+
+
+
+What do you think are the pros and cons of manually choosing when to create a
+commit, like you do in Git, vs having versions automatically saved, like Google
+docs does?
+
+Pros: Allows the programmer to decide whether the state of the code is
+stable i.e. commitworthy or not. Prevents unncessary versions of code to
+be saved, especially if the code is incomplete.
+
+Cons: It prevents loss of any code if the program ends abruptly and the
+programmer has not yet committed.
+
+Why do you think some version control systems, like Git, allow saving multiple
+files in one commit, while others, like Google Docs, treat each file separately?
+
+Unlike Google docs that is used for text editing,
+Git is used mostly by programmers. Programmers who work on projects,
+often have to deal with multiple files in a project. So, committing
+multiple files is necessary to save the entire project.
+
+How can you use the commands git log and git diff to view the history of files?
+
+Git log can be used to see the history of the commits. Git diff
+can be used to see the differences in the code between the commits.
+
+How might using version control make you more confident to make changes that
+could break something?
+
+I would be more willing to make changes because I will be more confident
+that I could revert back to the older version if my changes were to break
+something.
+
+Now that you have your workspace set up, what do you want to try using Git for?
+
+I would like to write some code and test version control in Git.

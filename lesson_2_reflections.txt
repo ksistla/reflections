@@ -1,0 +1,10 @@
+What happens when you initialize a repository? Why do you need to do it?
+
+After running 'git init' command, a new directory called .git is created 
+under the 'reflections' directory. Under .git, the following sub directories
+are also created: hooks, info, objects and refs. New files: config, 
+description and HEAD are also created.
+
+We need to run the 'git init' command in order to convert the directory in 
+which the 'git init' is run into a Git repository. 
+
