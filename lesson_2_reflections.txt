@@ -37,3 +37,9 @@ How do the diagrams help you visualize the branch structure?
 Using 'git log --graph --oneline' command displays all the commits and the different branches
 in which the commits were made. It gives a picture of where the branches originated. 
 This helps with proper merging of branches.
+
+What is the result of merging two branches together? Why do we represent it in the diagram the way we do?
+
+The 'git merge branch1 branch2' command merges the changes of branch2 into branch1.
+The HEAD is at the merges branch1. The diagram shown by 'git log --graph' shows
+the commit ids of the 2 branches that were merged.
