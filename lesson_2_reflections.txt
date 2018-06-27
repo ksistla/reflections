@@ -31,3 +31,9 @@ How would branches help?
 When we want to work on an experimental feature while intended to not disturb
 the working code, we keep the master branch intact and create a branch on 
 which to work on the experimental code. 
+
+How do the diagrams help you visualize the branch structure?
+
+Using 'git log --graph --oneline' command displays all the commits and the different branches
+in which the commits were made. It gives a picture of where the branches originated. 
+This helps with proper merging of branches.
