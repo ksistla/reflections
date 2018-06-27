@@ -43,3 +43,8 @@ What is the result of merging two branches together? Why do we represent it in t
 The 'git merge branch1 branch2' command merges the changes of branch2 into branch1.
 The HEAD is at the merges branch1. The diagram shown by 'git log --graph' shows
 the commit ids of the 2 branches that were merged.
+
+What are the pros and cons of Git’s automatic merging vs. always doing merges manually?
+
+Pros: It is easy and convinient
+Cons: It could make a mistake.
