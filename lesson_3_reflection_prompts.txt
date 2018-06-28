@@ -9,3 +9,7 @@ It is better to pull changes manually from GitHub to my local repository because
 2.) This would allow me to schedule the pull at a time convinient to me. I mean, if I was working on a file locally, I would not want an automatic pull overwriting the same file.
 3.) Since the remote repository usually houses changes from multiple collaborators, I would also like to be able to decide if I wish to pull the changes of everyone involved.
     
+Describe the differences between forks, clones, and branches. When would you use one instead of another?
+1.) Forks: Forking a repository allows the repository to be copied to the user's github. This enables the user to work on the copy without disturbing the original repository. 
+2.) Clones: The 'git clone' command is run from the local working directory. It results with the remote's repository being cloned onto the local working directory.
+3.) Branches: Every repository begins with a 'master' branch as the only branch. But, when users wish to work on a special feature or a bug fix without disturbing this 'master', a git branch is created. The user can work on the branch (while other users continue to work on the master), and can move his changes from the branch into the master when the work on the branch is completed.
