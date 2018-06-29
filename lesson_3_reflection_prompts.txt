@@ -13,3 +13,6 @@ Describe the differences between forks, clones, and branches. When would you use
 1.) Forks: Forking a repository allows the repository to be copied to the user's github. This enables the user to work on the copy without disturbing the original repository. 
 2.) Clones: The 'git clone' command is run from the local working directory. It results with the remote's repository being cloned onto the local working directory.
 3.) Branches: Every repository begins with a 'master' branch as the only branch. But, when users wish to work on a special feature or a bug fix without disturbing this 'master', a git branch is created. The user can work on the branch (while other users continue to work on the master), and can move his changes from the branch into the master when the work on the branch is completed.
+
+ What is the benefit of having a copy of the last known state of the remote stored locally?
+ When I am unable to access the internet, having a copy of the remote's state stored locally on my machine would allow me to continue my work on the local copy. I would then push/merge my changes from my local repository to the GitHub when the internet is availabe and I am done with my changes.
