@@ -21,3 +21,8 @@ Describe the differences between forks, clones, and branches. When would you use
  We could you google docs and share them among the collaborators. However I suspect that there could be the following issues with ggogle docs:
  1.) Google docs might not be able to prevent conflicts if collaborators write into a file at the same time.
  2.) Google docs works well of text files but is not well suited for code.
+
+ When would you want to make changes in a separate branch rather than directly in master? What benefits does each approach have?
+ I would use branches when:
+ 1.) working on a new feature which would take time and I would not wish to disturb the others working on the master.
+ 2.) working by myself instead of a large number of collaborators.
